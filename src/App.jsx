@@ -1,15 +1,19 @@
 import React from "react";
 import { AddNav } from './components/add-nav/AddNav';
-// import { DatePicker } from './components/date-picker/DatePicker';
+import { Calendar } from './components/calendar/Calendar';
 
 function App() {
   return (
     <div className="App">
+      <header>
       <AddNav />
+      <p className="userName">Босак Юлия Вячеславовна</p>
+      </header>
+      
       <div>
-        <p className="userName">Босак Юлия Вячеславовна</p>
+        
       </div>
-      {/* <DatePicker/> */}
+      <Calendar/>
     </div>
   );
 }
