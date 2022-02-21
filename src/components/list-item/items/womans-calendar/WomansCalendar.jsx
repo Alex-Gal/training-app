@@ -6,7 +6,7 @@ import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 
-export const WomansCalendar = () =>  {
+export const WomansCalendar = () => {
   const [open, setOpen] = React.useState(false);
 
   const handleClick = () => {
@@ -22,7 +22,7 @@ export const WomansCalendar = () =>  {
 
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          {/* Add calendar and inputs here */}
+          Женский календарь
         </List>
       </Collapse>
     </List>
