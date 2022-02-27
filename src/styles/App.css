@@ -11,7 +11,6 @@ body {
 
 .App {
     min-width: 900px;
-    height: 700px;
     margin-top: 20px;
     border: 1px solid rgb(109, 160, 168);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -21,5 +20,64 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-align: center;
-    margin: 5px 0;
+    margin: 15px;
+}
+
+.css-h4y409-MuiList-root {
+    padding: 0px !important;
+    border: 1px solid rgb(150, 142, 142);
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 10px 45px !important;
+}
+
+.css-1fyyp8j-MuiGrid-root {
+    max-width: 100% !important;
+}
+
+.inputs, .buttons{
+    padding: 0 20px 10px 20px;
+}
+
+.inputs__input {
+    margin-top: 15px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(150, 142, 142);
+    width: 100%;
+    outline: 0;
+}
+
+.inputs__set-number {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.buttons__button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(150, 142, 142);
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.buttons__button:active {
+    border: 1px solid #000;
+}
+
+.buttons__button_del-set {
+    background-color: rgb(216, 65, 65);
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.buttons__second-line {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttons__button_save {
+    margin-left: 40%;
 }

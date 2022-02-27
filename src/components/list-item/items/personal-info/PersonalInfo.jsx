@@ -22,7 +22,6 @@ export const PersonalInfo = () =>  {
 
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          {/* Add calendar and inputs here */}
           Личная информация
         </List>
       </Collapse>
