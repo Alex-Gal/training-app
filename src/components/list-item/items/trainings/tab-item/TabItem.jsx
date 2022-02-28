@@ -15,9 +15,7 @@ export const TabItem = () => {
       <Box>
         <Tabs value={value} onChange={handleChange} centered>
           <Tab label="Режим просмотра" />
-          <Tab label="Режим редактирования">
-            {/* <p>123</p> */}
-          </Tab>
+          <Tab label="Режим редактирования" />
           <Tab label="Режим полного просмотра" />
         </Tabs>
       </Box>
